@@ -52,7 +52,7 @@ function isNumberValid(inputNumber) {
     });
 }
 
-  export var ReactTelephoneInput = React.createClass({
+class ReactTelephoneInput extends React.Component {
     getInitialState() {
         var preferredCountries = this.props.preferredCountries.map(
             iso2 => allCountriesIso2Lookup.hasOwnProperty(iso2) ? allCountries[allCountriesIso2Lookup[iso2]] : null
@@ -537,6 +537,6 @@ function isNumberValid(inputNumber) {
             </div>
         );
     }
-});
+};
 
 export default onClickOutside(ReactTelephoneInput);
