@@ -53,7 +53,7 @@
     "react-onclickoutside": "5.3.1"
   },
   "peerDependencies": {
-    "react": ">=0.14.0 || ^15.0.0",
+    "react": "^0.13.3",
     "react-dom": "^0.14.7 || ^15.0.0"
   },
   "browserify-shim": {
