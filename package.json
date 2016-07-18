@@ -45,7 +45,9 @@
     "lessify": "^1.0.1",
     "mochify": "^2.9.0",
     "react-addons-test-utils": ">=0.14.0 || ^15.0.0",
-    "react-component-gulp-tasks": "^0.7.6"
+    "react-component-gulp-tasks": "^0.7.6",
+    "react-dom": "latest",
+    "react": "latest"
   },
   "dependencies": {
     "classnames": "^2.1.2",
